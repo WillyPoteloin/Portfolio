@@ -1,0 +1,230 @@
+/* line 1, ../scss/style.scss */
+#menu {
+  padding: 0;
+  margin: 0; }
+
+/* line 6, ../scss/style.scss */
+#menu li {
+  list-style-type: none;
+  float: left;
+  margin-right: 50px;
+  border: 5px solid #d7ebbe;
+  color: white; }
+
+/* line 14, ../scss/style.scss */
+.section {
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%; }
+
+/* line 21, ../scss/style.scss */
+.skills {
+  font-family: 'quicksandregular';
+  padding-top: 30px;
+  border-bottom: 1px solid #c34663; }
+  /* line 25, ../scss/style.scss */
+  .skills .chart {
+    display: inline-block;
+    position: relative;
+    width: 175px;
+    text-transform: uppercase;
+    color: #c34663;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-bottom: 30px; }
+    /* line 35, ../scss/style.scss */
+    .skills .chart p {
+      margin: 0px;
+      margin-top: 5px;
+      text-transform: uppercase; }
+    /* line 41, ../scss/style.scss */
+    .skills .chart span {
+      line-height: 74px; }
+    /* line 45, ../scss/style.scss */
+    .skills .chart canvas {
+      position: absolute;
+      top: 0px;
+      left: 28%; }
+
+/* line 53, ../scss/style.scss */
+.twitter {
+  margin-top: 25px;
+  text-align: left; }
+  /* line 57, ../scss/style.scss */
+  .twitter ul {
+    padding: 0;
+    margin: 0; }
+    /* line 61, ../scss/style.scss */
+    .twitter ul li {
+      width: 31%;
+      list-style-type: none;
+      border-right: 1px solid #c34663;
+      margin-bottom: 5px;
+      display: inline-block;
+      font-size: 15px;
+      height: 130px;
+      padding: 5px 14px;
+      color: #c34663;
+      font-family: 'quicksandregular';
+      overflow: hidden; }
+      /* line 74, ../scss/style.scss */
+      .twitter ul li .user {
+        padding-left: 60px;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'quicksandbold';
+        color: #4e79c0;
+        margin-top: 10px;
+        display: block;
+        text-decoration: underline; }
+        /* line 85, ../scss/style.scss */
+        .twitter ul li .user:hover {
+          color: #c34663; }
+      /* line 91, ../scss/style.scss */
+      .twitter ul li img {
+        float: left; }
+      /* line 95, ../scss/style.scss */
+      .twitter ul li p {
+        margin-top: 30px; }
+        /* line 98, ../scss/style.scss */
+        .twitter ul li p a {
+          color: black; }
+          /* line 101, ../scss/style.scss */
+          .twitter ul li p a:hover {
+            color: #4e79c0; }
+      /* line 107, ../scss/style.scss */
+      .twitter ul li:last-child {
+        border-right: 0px; }
+
+/* line 115, ../scss/style.scss */
+.twitterBtn {
+  position: fixed;
+  top: 120px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/twitter.png");
+  background-size: 100%; }
+
+/* line 125, ../scss/style.scss */
+.cvBtn {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../img/cv.png");
+  background-size: 100%; }
+
+/* line 135, ../scss/style.scss */
+.centered {
+  height: auto;
+  vertical-align: middle;
+  font-size: 22px;
+  font-family: 'quicksandregular';
+  border-top: 1px solid #c34663;
+  border-bottom: 1px solid #c34663;
+  position: relative;
+  padding: 10px; }
+  /* line 145, ../scss/style.scss */
+  .centered a {
+    color: #c34663; }
+
+/* line 151, ../scss/style.scss */
+.centered a:hover {
+  color: #4e79c0; }
+
+/* line 155, ../scss/style.scss */
+.social_network {
+  display: inline-block;
+  margin-top: -25px;
+  vertical-align: top; }
+
+/* line 161, ../scss/style.scss */
+.social_network a {
+  border: 2px solid #4e79c0;
+  padding: 5px 7px;
+  border-radius: 50px;
+  font-size: 15px;
+  color: #4e79c0;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  width: 13px; }
+
+/* line 172, ../scss/style.scss */
+.social_network a:hover {
+  color: #c34663 !important;
+  border: 2px solid #c34663; }
+
+/* line 177, ../scss/style.scss */
+.special {
+  color: #c34663; }
+
+/* line 181, ../scss/style.scss */
+h1 {
+  color: #4e79c0;
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-family: 'quicksandbold';
+  text-transform: uppercase; }
+
+/* line 189, ../scss/style.scss */
+h1 a {
+  color: #4e79c0 !important; }
+
+/* line 193, ../scss/style.scss */
+h1 a:hover {
+  color: #c34663 !important; }
+
+/* line 197, ../scss/style.scss */
+.webRessources {
+  margin: 0;
+  padding: 0;
+  margin-top: 25px; }
+
+/* line 203, ../scss/style.scss */
+.webRessources li {
+  float: left;
+  list-style-type: none;
+  border: 5px solid #575757;
+  margin-right: 21px;
+  margin-bottom: 5px;
+  height: 300px;
+  width: 18%;
+  position: relative; }
+
+/* line 214, ../scss/style.scss */
+.webRessources li:last-child {
+  margin-right: 0px; }
+
+/* line 218, ../scss/style.scss */
+.webRessources li a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  font-family: 'quicksandregular';
+  display: inline-block;
+  height: 300px; }
+
+/* line 228, ../scss/style.scss */
+.webRessources li a img {
+  height: 100%;
+  width: 100%; }
+
+/* line 233, ../scss/style.scss */
+.webRessources li a .descriptif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../img/ombre.png");
+  margin: 0;
+  height: 300px;
+  display: none; }
+
+/* line 244, ../scss/style.scss */
+.webRessources li a p {
+  padding-top: 170px; }
