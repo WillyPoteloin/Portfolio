@@ -1,14 +1,12 @@
 @charset "UTF-8";
 @media screen and (max-width: 1600px) {
   /* on change la taille des flèches */
-  /* line 4, ../scss/responsive.scss */
   .scrollDown {
     margin-left: -75px;
     height: 150px;
     width: 150px;
     bottom: 7%; }
 
-  /* line 11, ../scss/responsive.scss */
   .controlArrow {
     position: absolute;
     cursor: pointer;
@@ -18,73 +16,58 @@
     bottom: 7%; }
 
   /* on diminue les tailles de polices */
-  /* line 21, ../scss/responsive.scss */
   .centered {
     font-size: 18px; }
 
-  /* line 25, ../scss/responsive.scss */
   h1 {
     font-size: 29px;
     margin-bottom: 10px; }
 
-  /* line 30, ../scss/responsive.scss */
   .social_network {
     margin-top: -5px;
     margin-bottom: 10px; }
 
   /* on diminue l'espace entre les tweets */
-  /* line 36, ../scss/responsive.scss */
   .twitter ul li {
     margin-right: 9px;
     width: 29%; }
 
-  /* line 41, ../scss/responsive.scss */
   .twitter ul li a.user {
     font-size: 16px; }
 
-  /* line 45, ../scss/responsive.scss */
   .twitter ul li {
     font-size: 14px; }
 
   /* on diminue le padding-top des section */
-  /* line 50, ../scss/responsive.scss */
   .section {
-    padding-top: 5%; }
+    padding-top: 2%; }
 
-  /* line 54, ../scss/responsive.scss */
   .webRessources li {
     width: 175px;
     margin-right: 20px; }
 
-  /* line 59, ../scss/responsive.scss */
   .webRessources li a p {
     padding-top: 145px; } }
 @media screen and (max-width: 768px) {
   /* on diminue le padding-top des section */
-  /* line 67, ../scss/responsive.scss */
   .section {
-    padding-top: 5%;
+    padding-top: 2%;
     padding-right: 4%;
     padding-left: 4%; }
 
   /* on diminue les tailles de polices */
-  /* line 74, ../scss/responsive.scss */
   .centered {
     font-size: 14px; }
 
-  /* line 78, ../scss/responsive.scss */
   h1 {
     font-size: 16px;
     margin-bottom: 0px; }
 
-  /* line 85, ../scss/responsive.scss */
   .skills .chart {
     width: 135px; }
-    /* line 89, ../scss/responsive.scss */
     .skills .chart canvas {
       left: 22%; }
 
-  /* line 95, ../scss/responsive.scss */
   .twitter ul li {
     width: 100%;
     display: block;
@@ -93,7 +76,6 @@
     border-bottom: 1px solid #c34663;
     padding: 0px; }
 
-  /* line 104, ../scss/responsive.scss */
   .twitterBtn {
     position: fixed;
     top: 15px;
@@ -102,7 +84,6 @@
     height: 50px;
     width: 50px; }
 
-  /* line 113, ../scss/responsive.scss */
   .cvBtn {
     position: fixed;
     top: 15px;
@@ -111,90 +92,73 @@
     width: 50px;
     margin-left: -55px; }
 
-  /* line 122, ../scss/responsive.scss */
   .social_network {
     margin-top: 5px; }
-    /* line 125, ../scss/responsive.scss */
     .social_network a {
       padding: 3px 6px 3px 3px;
       font-size: 8px;
       width: 6px; }
-      /* line 130, ../scss/responsive.scss */
       .social_network a.social_cv {
         width: 4px;
         padding-left: 5px; }
 
   /* on change la taille des flèches */
-  /* line 138, ../scss/responsive.scss */
   .scrollDown {
     margin-left: -37.5px;
     height: 75px;
     width: 75px;
     bottom: 12%; }
 
-  /* line 145, ../scss/responsive.scss */
   .controlArrow {
     bottom: 12%;
     width: 75px;
     height: 75px; }
 
-  /* line 151, ../scss/responsive.scss */
   .controlArrow.prev {
     left: 15%; }
 
-  /* line 155, ../scss/responsive.scss */
   .controlArrow.prev:hover {
     left: 15%; }
 
-  /* line 159, ../scss/responsive.scss */
   .controlArrow.next {
     right: 15%; }
 
-  /* line 163, ../scss/responsive.scss */
   .controlArrow.next:hover {
     right: 15%; }
 
   /* on enlève les rubans */
-  /* line 168, ../scss/responsive.scss */
   #home {
     background-image: none; }
 
-  /* line 172, ../scss/responsive.scss */
   #studies {
     background-image: none; }
 
-  /* line 176, ../scss/responsive.scss */
   #skills {
     background-image: none; }
 
-  /* line 180, ../scss/responsive.scss */
   #projects {
     background-image: none; }
 
-  /* line 184, ../scss/responsive.scss */
   #web {
     background-image: none; }
 
-  /* line 188, ../scss/responsive.scss */
   .descriptif {
     display: block !important; }
 
-  /* line 192, ../scss/responsive.scss */
   .webRessources li {
     width: 90px;
     height: 150px;
     margin-right: 3px; }
 
-  /* line 198, ../scss/responsive.scss */
   .webRessources li a {
     height: 150px; }
 
-  /* line 202, ../scss/responsive.scss */
   .webRessources li a .descriptif {
     height: 150px;
     background-image: url("../img/ombreSmall.png"); }
 
-  /* line 207, ../scss/responsive.scss */
   .webRessources li a p {
     padding-top: 15px;
     font-size: 10px; } }
+
+/*# sourceMappingURL=responsive.css.map */

@@ -13,19 +13,21 @@
 
 .section {
 	text-align: center;
-	padding-top: 5%;
+	padding-top: 2%;
 	padding-left: 15%;
 	padding-right: 15%;
 }
 
 .skills {
 	font-family: 'quicksandregular';
-	padding-top: 30px;
 	border-bottom: 1px solid #c34663;
 
 	h1 {
-		font-size: 16px;
+		font-family: 'quicksandregular';
+		font-size: 18px;
 		color: #c34663;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 
 	.chart {
@@ -143,7 +145,6 @@
 	vertical-align: middle;
 	font-size: 22px;
 	font-family: 'quicksandregular';
-	border-top: 1px solid #c34663;
 	border-bottom: 1px solid #c34663;
 	position: relative;
 	padding: 10px;
