@@ -22,6 +22,12 @@
 	font-family: 'quicksandregular';
 	padding-top: 30px;
 	border-bottom: 1px solid #c34663;
+
+	h1 {
+		font-size: 16px;
+		color: #c34663;
+	}
+
 	.chart {
 		display: inline-block;
 		position: relative;
@@ -31,7 +37,7 @@
 		margin-right: 20px;
 		vertical-align: top;
 		margin-bottom: 30px;
-		
+
 		p {
 			margin: 0px;
 			margin-top: 5px;
@@ -39,7 +45,7 @@
 		}
 
 		span {
-			line-height: 74px;	
+			line-height: 74px;
 		}
 
 		canvas {
@@ -87,7 +93,7 @@
 				}
 
 			}
-			
+
 			img {
 				float: left;
 			}
@@ -97,7 +103,7 @@
 
 				a {
 					color: black;
-				
+
 					&:hover {
 						color: #4e79c0;
 					}
@@ -141,7 +147,7 @@
 	border-bottom: 1px solid #c34663;
 	position: relative;
 	padding: 10px;
-	
+
 	a {
 		color: #c34663;
 	}
