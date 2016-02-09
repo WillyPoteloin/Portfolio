@@ -8,7 +8,7 @@ set :repo_url, 'git@gitlab.com:WillyPoteloin/Portfolio.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/volume1/web/my_app_name'
+set :deploy_to, '/volume1/web/#{fetch(:application)}'
 
 # Default value for :scm is :git
 # set :scm, :git
