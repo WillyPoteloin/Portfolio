@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'capi'
+set :application, 'portfolio'
 set :repo_url, 'git@gitlab.com:WillyPoteloin/Portfolio.git'
 
 # Default branch is :master
