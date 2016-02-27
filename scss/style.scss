@@ -28,6 +28,7 @@
 		color: #c34663;
 		margin-top: 20px;
 		margin-bottom: 20px;
+		border-bottom: 1px solid #c34663;
 	}
 
 	.chart {
@@ -55,6 +56,11 @@
 			top: 0px;
 			left: 28%;
 		}
+	}
+
+	p {
+		display: inline-block;
+		color: #c34663;
 	}
 }
 

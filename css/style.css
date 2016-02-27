@@ -23,7 +23,8 @@
     font-size: 18px;
     color: #c34663;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    border-bottom: 1px solid #c34663; }
   .skills .chart {
     display: inline-block;
     position: relative;
@@ -43,6 +44,9 @@
       position: absolute;
       top: 0px;
       left: 28%; }
+  .skills p {
+    display: inline-block;
+    color: #c34663; }
 
 .twitter {
   margin-top: 25px;
