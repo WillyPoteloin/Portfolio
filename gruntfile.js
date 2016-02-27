@@ -1,32 +1,27 @@
-'use strict';
-
 module.exports = function(grunt) {
 
 	// Project Configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		watch: {
-			sass: {
-				files: './scss/**/*.scss',
-				tasks: ['sass:style'],	
+			css: {
+				files: ['scss/*.scss'],
+				// tasks: ['sass'],
 			},
-			livereload: {
-				files: './css/**/*.css',
-				options: {
-					livereload: true,
-				}
-			}
+			// reload: {
+			// 	files: './css/**/*.css',
+			// 	options: {
+			// 		livereload: true,
+			// 	},
+			// },
 		},
-		sass: {
-			style: {
-				update: true,
-				files: [{
-					expand: true,
-					src: './scss/**/*.scss',
-					dist: './css',
-				}],
-			},
-		}
+		// sass: {
+		// 	style: {
+		// 		files: {
+		// 			'./css/style.css' : './scss/style.scss',
+		// 		},
+		// 	},
+		// },
 	});
 
 	// Load NPM tasks
