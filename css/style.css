@@ -1,371 +1,125 @@
-@charset "UTF-8";
-@media screen and (max-width: 1600px) {
-  /* on change la taille des flèches */
-  .scrollDown {
-    margin-left: -75px;
-    height: 150px;
-    width: 150px;
-    bottom: 7%; }
+body {
+  margin: 0;
+  padding: 0; }
 
-  .controlArrow {
-    position: absolute;
-    cursor: pointer;
-    width: 150px;
-    height: 150px;
-    margin-top: -38px;
-    bottom: 7%; }
+h1 {
+  color: #4e79c0;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: 'quicksandregular';
+  text-transform: uppercase; }
+  h1 a {
+    color: #4e79c0; }
+    h1 a:hover {
+      color: #c34663; }
 
-  /* on diminue les tailles de polices */
-  .centered {
-    font-size: 18px; }
-
-  h1 {
-    font-size: 29px;
-    margin-bottom: 10px; }
-
-  .social_network {
-    margin-top: -5px;
-    margin-bottom: 10px; }
-
-  /* on diminue l'espace entre les tweets */
-  .twitter ul li {
-    margin-right: 9px;
-    width: 29%; }
-
-  .twitter ul li a.user {
-    font-size: 16px; }
-
-  .twitter ul li {
-    font-size: 14px; }
-
-  /* on diminue le padding-top des section */
-  .section {
-    padding-top: 2%; }
-
-  .webRessources li {
-    width: 175px;
-    margin-right: 20px; }
-
-  .webRessources li a p {
-    padding-top: 145px; } }
-@media screen and (max-width: 768px) {
-  /* on diminue le padding-top des section */
-  .section {
-    padding-top: 2%;
-    padding-right: 4%;
-    padding-left: 4%; }
-
-  /* on diminue les tailles de polices */
-  .centered {
-    font-size: 14px; }
-
-  h1 {
-    font-size: 16px;
-    margin-bottom: 0px; }
-
-  .skills .chart {
-    width: 135px; }
-
-  .skills .chart canvas {
-    left: 22%; }
-
-  .twitter ul li {
-    width: 100%;
-    display: block;
-    font-size: 14px;
-    border: 0px;
-    border-bottom: 1px solid #c34663;
-    padding: 0px; }
-
-  .twitterBtn {
-    position: fixed;
-    top: 15px;
-    left: 50%;
-    margin-left: 5px;
-    height: 50px;
-    width: 50px; }
-
-  .cvBtn {
-    position: fixed;
-    top: 15px;
-    left: 50%;
-    height: 50px;
-    width: 50px;
-    margin-left: -55px; }
-
-  .social_network {
-    margin-top: 5px; }
-
-  .social_network a {
-    padding: 3px 6px 3px 3px;
-    font-size: 8px;
-    width: 6px; }
-
-  .social_network a.social_cv {
-    width: 4px;
-    padding-left: 5px; }
-
-  /* on change la taille des flèches */
-  .scrollDown {
-    margin-left: -37.5px;
-    height: 75px;
-    width: 75px;
-    bottom: 12%; }
-
-  .controlArrow {
-    bottom: 12%;
-    width: 75px;
-    height: 75px; }
-
-  .controlArrow.prev {
-    left: 15%; }
-
-  .controlArrow.prev:hover {
-    left: 15%; }
-
-  .controlArrow.next {
-    right: 15%; }
-
-  .controlArrow.next:hover {
-    right: 15%; }
-
-  /* on enlève les rubans */
-  #home {
-    background-image: none; }
-
-  #studies {
-    background-image: none; }
-
-  #skills {
-    background-image: none; }
-
-  #projects {
-    background-image: none; }
-
-  #web {
-    background-image: none; }
-
-  .descriptif {
-    display: block !important; }
-
-  .webRessources li {
-    width: 90px;
-    height: 150px;
-    margin-right: 3px; }
-
-  .webRessources li a {
-    height: 150px; }
-
-  .webRessources li a .descriptif {
-    height: 150px;
-    background-image: url("../img/ombreSmall.png"); }
-
-  .webRessources li a p {
-    padding-top: 15px;
-    font-size: 10px; } }
-/*# sourceMappingURL=responsive.scss.map */
-/*# sourceMappingURL=responsive.scss.map */
-/*# sourceMappingURL=responsive.scss.map */
-/*# sourceMappingURL=responsive.scss.map */
-#menu {
-  padding: 0;
-  margin: 1px; }
-
-#menu li {
-  list-style-type: none;
-  float: left;
-  margin-right: 50px;
-  border: 5px solid #d7ebbe;
-  color: white; }
+.special {
+  color: #c34663; }
 
 .section {
-  padding-top: 2%;
-  padding-left: 15%;
-  padding-right: 15%; }
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+  text-align: center; }
 
-.skills {
-  font-family: 'quicksandregular';
-  border-bottom: 1px solid #c34663; }
-  .skills h1 {
-    font-family: 'quicksandregular';
-    font-size: 18px;
-    color: #c34663;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #c34663; }
-  .skills .chart {
-    display: inline-block;
-    position: relative;
-    width: 175px;
-    text-transform: uppercase;
-    color: #c34663;
-    margin-right: 20px;
-    vertical-align: top;
-    margin-bottom: 30px; }
-    .skills .chart p {
-      margin: 0px;
-      margin-top: 5px;
-      text-transform: uppercase; }
-    .skills .chart span {
-      line-height: 74px; }
-    .skills .chart canvas {
-      position: absolute;
-      top: 0px;
-      left: 28%; }
-  .skills p {
-    display: inline-block;
-    color: #c34663; }
-
-.twitter {
-  margin-top: 25px;
-  text-align: left; }
-  .twitter ul {
-    padding: 0;
-    margin: 0; }
-    .twitter ul li {
-      width: 31%;
-      list-style-type: none;
-      border-right: 1px solid #c34663;
-      margin-bottom: 5px;
-      display: inline-block;
-      font-size: 15px;
-      height: 130px;
-      padding: 5px 14px;
-      color: #c34663;
-      font-family: 'quicksandregular';
-      overflow: hidden; }
-      .twitter ul li .user {
-        padding-left: 60px;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: bold;
-        font-family: 'quicksandbold';
-        color: #4e79c0;
-        margin-top: 10px;
-        display: block;
-        text-decoration: underline; }
-        .twitter ul li .user:hover {
-          color: #c34663; }
-      .twitter ul li img {
-        float: left; }
-      .twitter ul li p {
-        margin-top: 30px; }
-        .twitter ul li p a {
-          color: black; }
-          .twitter ul li p a:hover {
-            color: #4e79c0; }
-      .twitter ul li:last-child {
-        border-right: 0px; }
-
-.twitterBtn {
-  position: fixed;
-  top: 120px;
-  right: 30px;
-  width: 80px;
-  height: 80px;
-  background-image: url("../img/twitter.png");
-  background-size: 100%; }
-
-.cvBtn {
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  width: 80px;
-  height: 80px;
-  background-image: url("../img/cv.png");
-  background-size: 100%; }
-
-.centered {
+.prez {
   height: auto;
   vertical-align: middle;
   font-size: 22px;
   font-family: 'quicksandregular';
   border-bottom: 1px solid #c34663;
-  position: relative;
-  padding: 10px; }
-  .centered a {
-    color: #c34663; }
-
-.centered a:hover {
-  color: #4e79c0; }
-
-.social_network {
-  display: inline-block;
-  margin-top: -25px;
-  vertical-align: top; }
-
-.social_network a {
-  border: 2px solid #4e79c0;
-  padding: 5px 7px;
-  border-radius: 50px;
-  font-size: 15px;
-  color: #4e79c0;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  width: 13px; }
-
-.social_network a:hover {
-  color: #c34663 !important;
-  border: 2px solid #c34663; }
-
-.special {
-  color: #c34663; }
-
-h1 {
-  color: #4e79c0;
-  font-size: 35px;
-  margin-bottom: 30px;
-  font-family: 'quicksandbold';
-  text-transform: uppercase; }
-
-h1 a {
-  color: #4e79c0 !important; }
-
-h1 a:hover {
-  color: #c34663 !important; }
-
-.webRessources {
-  margin: 0;
-  padding: 0;
-  margin-top: 25px; }
-
-.webRessources li {
-  float: left;
-  list-style-type: none;
-  border: 5px solid #575757;
-  margin-right: 21px;
-  margin-bottom: 5px;
-  height: 300px;
-  width: 18%;
   position: relative; }
+  .prez h1 {
+    margin-bottom: 20px; }
+    .prez h1 a {
+      padding: 10px 20px;
+      border-top: 1px solid #c34663;
+      border-bottom: 1px solid #c34663;
+      text-decoration: none; }
+      .prez h1 a:hover {
+        border-color: #4e79c0; }
+  .prez a {
+    color: #c34663; }
+    .prez a:hover {
+      color: #4e79c0; }
+  .prez .social_network {
+    margin-bottom: 25px; }
+    .prez .social_network a {
+      border: 1px solid #c34663;
+      padding: 5px 7px;
+      border-radius: 50px;
+      font-size: 15px;
+      color: #c34663;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      width: 13px; }
+      .prez .social_network a:hover {
+        color: #fff;
+        background-color: #c34663; }
+  .prez .text {
+    margin-bottom: 15px;
+    line-height: 35px; }
 
-.webRessources li:last-child {
-  margin-right: 0px; }
-
-.webRessources li a {
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  color: #FFFFFF;
+.skills {
   font-family: 'quicksandregular';
-  display: inline-block;
-  height: 300px; }
+  padding: 20px 0px;
+  border-bottom: 1px solid #c34663; }
+  .skills h1 {
+    font-size: 18px;
+    color: #c34663;
+    margin: 0;
+    margin-bottom: 30px; }
+  .skills .tags {
+    font-size: 0px; }
+    .skills .tags .tag {
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 5px;
+      padding: 10px 15px;
+      border: 1px solid #c34663;
+      font-size: 14px;
+      color: #c34663;
+      cursor: pointer;
+      text-transform: uppercase; }
+      .skills .tags .tag:hover {
+        background-color: #c34663;
+        color: #fff; }
 
-.webRessources li a img {
-  height: 100%;
-  width: 100%; }
-
-.webRessources li a .descriptif {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-image: url("../img/ombre.png");
-  margin: 0;
-  height: 300px;
-  display: none; }
-
-.webRessources li a p {
-  padding-top: 170px; }
+.twitter {
+  text-align: left; }
+  .twitter ul {
+    padding: 0;
+    margin: 0;
+    font-size: 0px; }
+    .twitter ul li {
+      display: block;
+      width: 100%;
+      padding: 15px 0px;
+      list-style-type: none;
+      font-family: 'quicksandregular';
+      font-size: 15px;
+      color: #c34663;
+      border-bottom: 1px solid #c34663;
+      vertical-align: top; }
+      .twitter ul li .user {
+        display: inline-block;
+        font-size: 18px;
+        font-family: 'quicksandregular';
+        color: #4e79c0;
+        text-decoration: underline; }
+        .twitter ul li .user:hover {
+          color: #c34663; }
+      .twitter ul li img {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle; }
+      .twitter ul li p {
+        margin-top: 15px;
+        margin-bottom: 0px; }
+        .twitter ul li p a {
+          color: black; }
+          .twitter ul li p a:hover {
+            color: #4e79c0; }
 
 /*# sourceMappingURL=style.css.map */
