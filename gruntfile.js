@@ -6,8 +6,12 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 		watch: {
+			sass: {
+				files: './scss/**/*.scss',
+				tasks: ['sass:style'],	
+			},
 			livereload: {
-				files: '/style/**/*.css',
+				files: './css/**/*.css',
 				options: {
 					livereload: true,
 				}
@@ -18,8 +22,8 @@ module.exports = function(grunt) {
 				update: true,
 				files: [{
 					expand: true,
-					src: 'scss/*.scss',
-					dist: 'css',
+					src: './scss/**/*.scss',
+					dist: './css',
 				}],
 			},
 		}
@@ -32,5 +36,5 @@ module.exports = function(grunt) {
 	// Default task(s).
 	grunt.registerTask('default', ['watch']);
 	grunt.registerTask('watch', ['watch']);
-	grunt.registerTask('compilecss', ['saas:style']);
+	grunt.registerTask('compilecss', ['sass:style']);
 };
