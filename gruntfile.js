@@ -6,25 +6,28 @@ module.exports = function(grunt) {
 		watch: {
 			gruntfile: {
 				files: ['gruntfile.js'],
+				options: {
+					reload: true,
+				}
 			},
 			css: {
 				files: ['scss/*.scss'],
-				// tasks: ['sass'],
+				tasks: ['sass'],
 			},
-			// reload: {
-			// 	files: './css/**/*.css',
-			// 	options: {
-			// 		livereload: true,
-			// 	},
-			// },
+			livereload: {
+				files: 'css/**/*.css',
+				options: {
+					livereload: true,
+				},
+			},
 		},
-		// sass: {
-		// 	style: {
-		// 		files: {
-		// 			'./css/style.css' : './scss/style.scss',
-		// 		},
-		// 	},
-		// },
+		sass: {
+			style: {
+				files: {
+					'./css/style.css' : './scss/style.scss',
+				},
+			},
+		},
 	});
 
 	// Load NPM tasks
@@ -33,6 +36,5 @@ module.exports = function(grunt) {
 	
 	// Default task(s).
 	grunt.registerTask('default', ['watch']);
-	grunt.registerTask('watch', ['watch']);
 	grunt.registerTask('compilecss', ['sass:style']);
 };
