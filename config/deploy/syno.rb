@@ -3,7 +3,7 @@
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server '149.202.62.154', user: 'willy', roles: %w{web}, port: 650
+server 'w-creation.fr', user: 'willy', roles: %w{web}, port: 650
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
@@ -31,7 +31,7 @@ server '149.202.62.154', user: 'willy', roles: %w{web}, port: 650
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
 set :application, 'portfolio'
-set :deploy_to, "/var/www/#{fetch(:application)}"
+set :deploy_to, "/volume1/web/#{fetch(:application)}"
 
 
 # Custom SSH Options
