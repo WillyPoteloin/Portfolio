@@ -1,12 +1,8 @@
-require 'capistrano/ext/multistage'
-
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
 set :application, 'portfolio'
 set :repo_url, 'git@gitlab.com:WillyPoteloin/Portfolio.git'
-set :stages, ["syno", "production"]
-set :default_stage, "production"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
