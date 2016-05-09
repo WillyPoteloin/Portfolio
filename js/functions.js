@@ -25,9 +25,8 @@ $(document).ready(function($) {
 			});
 
 			// on remplit la liste des tweets
-			$('.twitter ul').append('<li><img src="'+tweet.user.profile_image_url+'" alt="'+tweet.user.screen_name+'" /><a target="_blank" class="user" href="https://twitter.com/'+tweet.user.screen_name+'">@'+tweet.user.screen_name+'</a><p>'+tweet.text+'</p><div class="clear"></div></li>');
+			$('.twitter ul').append('<li><img src="'+tweet.user.profile_image_url_https+'" alt="'+tweet.user.screen_name+'" /><a target="_blank" class="user" href="https://twitter.com/'+tweet.user.screen_name+'">@'+tweet.user.screen_name+'</a><p>'+tweet.text+'</p><div class="clear"></div></li>');
 		});
-
 	};
 
 	// Requête Twitter
