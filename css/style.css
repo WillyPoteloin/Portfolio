@@ -86,6 +86,43 @@ h1 {
         background-color: #c34663;
         color: #fff; }
 
+.projects {
+  font-family: 'quicksandregular';
+  padding: 20px 0px;
+  border-bottom: 1px solid #c34663;
+  text-align: center; }
+  .projects h1 {
+    font-size: 18px;
+    color: #c34663;
+    margin: 0;
+    margin-bottom: 30px; }
+  .projects .project {
+    padding: 10px;
+    border: 1px solid #c34663; }
+    .projects .project .title {
+      color: #c34663;
+      font-size: 18px; }
+    .projects .project div {
+      margin-top: 15px; }
+      .projects .project div.description a {
+        color: #000; }
+      .projects .project div.technos .techno {
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 10px 15px;
+        border: 1px solid #c34663;
+        font-size: 14px;
+        color: #c34663;
+        cursor: pointer;
+        text-transform: uppercase; }
+        .projects .project div.technos .techno:hover {
+          background-color: #c34663;
+          color: #fff; }
+      .projects .project div.progress {
+        color: rgba(0, 0, 0, 0.5);
+        text-decoration: underline; }
+
 .twitter {
   text-align: left; }
   .twitter ul {
